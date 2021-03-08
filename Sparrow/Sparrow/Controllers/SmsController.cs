@@ -15,7 +15,7 @@ namespace Sparrow.Controllers
             var accountSid = "ACd7866d577d7850a0d4beee7722edd17e";
             var authToken = "389a892c27cadf5c81a6b0b4b0908350";
             TwilioClient.Init(accountSid, authToken);
-            var to = new PhoneNumber("+19493512330");
+            var to = new PhoneNumber("+14157451519");
             var from = new PhoneNumber("+19898001313");
 
             var message = MessageResource.Create(
